@@ -47,5 +47,5 @@ gulp.task('watch', () => {
 gulp.task('default', ['sass', 'watch']);
 
 gulp.task('prod', () => {
-    runSequence('sass', 'purgecss','nano');
+    runSequence('sass', 'nano');
 });

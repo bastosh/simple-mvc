@@ -4,7 +4,6 @@ namespace Simple\App\Controllers;
 
 use Simple\Core\App;
 use Simple\App\Models\Feature;
-use Simple\App\Models\Post;
 
 class AdminController extends Controller
 {
